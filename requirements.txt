@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+flask_socketio
+pandas
+numpy
+psycopg2
+gunicorn
+eventlet
