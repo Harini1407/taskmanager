@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Harini14%40@localhost/taskdb'
+app.config['SQLALCHEMY_DATABASE_URI'] = postgresql://taskdb_jlkh_user:ZdjmTCrfQSIKfBqkaSvKyBe4T1rETgiS@dpg-d80f53t0lvsc738lm6u0-a.oregon-postgres.render.com/taskdb_jlkh
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
