@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8b6f47, #d8c3a5);
+    padding: 30px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff8f0;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff8f0;
+}
+
+form {
+    background-color: #f5ebe0;
+    width: 420px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: 2px solid #b08968;
+    background-color: #fffaf5;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #7f5539;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5e3b26;
+}
+
+.task-card {
+    background-color: #f5ebe0;
+    width: 420px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    color: #3e2723;
+}
+
+.task-card h3 {
+    margin-top: 10px;
+    color: #5e3b26;
+}
+
+.task-card p {
+    color: #4e342e;
+}
+
+#notification {
+    text-align: center;
+    color: #fff8f0;
+    font-weight: bold;
+    margin-top: 20px;
+}
+hr {
+    border: 1px solid #b08968;
+    margin: 20px 0;
+}
+
+.task-card h2 {
+    text-align: left;
+    margin-left: 10px;
+    color: #5e3b26;
+}

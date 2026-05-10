@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Analytics</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <h1>📊 Task Analytics Dashboard</h1>
+
+    <div class="task-card">
+
+        <h2>📁 Total Tasks: {{ total_tasks }}</h2>
+
+        <hr>
+
+        <h2>🔥 High Priority Tasks: {{ high_tasks }}</h2>
+
+        <h2>⚡ Medium Priority Tasks: {{ medium_tasks }}</h2>
+
+        <h2>🌿 Low Priority Tasks: {{ low_tasks }}</h2>
+
+    </div>
+
+</body>
+
+</html>
